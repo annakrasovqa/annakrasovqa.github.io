@@ -1,0 +1,113 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  height: 615px;
+  background: linear-gradient(to top, #FFFFE0, #E9E4F0)
+}
+
+.container {
+  padding: 20px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.item{
+
+}
+
+
+
+
+
+  /* Свойства ссылок */
+a {
+  color: #000000;
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:#bb00ff;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #000000;
+  width: 300px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 15px;
+
+}
+
+.telega {
+   float: left;
+    width: 2%; /* Ширина */
+    padding-right: 5px;
+}
+
+.email {
+   float: left;
+    width: 1.5%; /* Ширина */
+    padding-right: 10px;
+}
+
+.vk {
+   float: left;
+    width: 2%; /* Ширина */
+    padding-right: 5px;
+}
+
+.miro {
+   float: left;
+    width: 1.5%; /* Ширина */
+    padding-right: 10px;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.05);
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #bb00ff;
+}
+
+button {
+  font-size: 15px;
+  color: #000000; 
+  background: #bb00ff; 
+  padding: 10px 20px; 
+  border : none;
+  border-radius: 15px;
+    
+}
+
+button:hover { 
+  background: #4c00ff; 
+} 
+button:active { 
+  background: #4c00ff; 
+} 
+
